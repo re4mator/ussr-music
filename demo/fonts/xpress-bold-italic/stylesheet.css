@@ -1,0 +1,17 @@
+@font-face {
+        font-family: "Xpress-BoldItalic";
+        src: url('Xpress-BoldItalic.woff') format('woff'),
+        url('Xpress-BoldItalic.woff2') format('woff2'),
+        url('Xpress-BoldItalic.svg#Xpress-BoldItalic') format('svg'),
+        url('Xpress-BoldItalic.eot'),
+        url('Xpress-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Xpress-BoldItalic.ttf') format('truetype');
+
+                font-weight: normal;
+                font-style: normal;
+                font-display: swap;
+            }
+
+
+
+

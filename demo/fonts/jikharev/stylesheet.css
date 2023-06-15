@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'Jikharev';
+	src: url('jikharev.eot'); /* IE 9 Compatibility Mode */
+	src: url('jikharev.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('jikharev.woff2') format('woff2'), /* Super Modern Browsers */
+		url('jikharev.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('jikharev.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('jikharev.svg#jikharev') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+
+

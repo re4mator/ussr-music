@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Stereonic-M';
+    src:url('Stereonic-M.woff') format('woff'),
+        url('Stereonic-M.woff2') format('woff2'),
+        url('Stereonic-M.svg#Stereonic-M') format('svg'),
+        url('Stereonic-M.eot'),
+        url('Stereonic-M.eot?#iefix') format('embedded-opentype'),
+        url('Stereonic-M.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
