@@ -1,5 +1,3 @@
-/*@import url("https://fonts.googleapis.com/css?family=Roboto");*/
-
 @import url('../fonts/roboto-condensed/stylesheet.css');
 @import url('../fonts/manrope/stylesheet.css');
 @import url('../fonts/times-new-roman/stylesheet.css');
@@ -47,6 +45,12 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+/*
+*, *:focus {
+outline: none !important; border: none !important;
+}
+*/
 
 /* Работает в Chrome, Edge и Safari */
 *::-webkit-scrollbar {
@@ -183,6 +187,8 @@ section {
 body {
     line-height: 1;
 }
+
+button:visited{outline:none;border:none;}
 
 ol,
 ul {
@@ -536,7 +542,7 @@ h3 {
     margin-bottom: 30px;
     font-weight: 600;
     color: #e31c1c;
-    display: flex;
+    /*display: flex;*/
 
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
     -webkit-text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
@@ -706,10 +712,25 @@ strong {
     min-height: 579px;
     max-height: 579px;
 }
-@media (max-width: 767px) {
-.intro {padding-top: 150px; background-size: auto 50vh;}
+.intro-lyrics {
+    width: 100%;
+    margin: 0 auto;
+	height: calc(100vh - 72px);
+    background: #e31c1c url('../img/writter.svg') right bottom no-repeat;
+	background-size: auto 90vh;
+    margin-bottom: 0px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    min-height: 579px;
+    max-height: 579px;
 }
-.intro h1 {
+@media (max-width: 767px) {
+.intro, .intro-lyrics {padding-top: 150px; background-size: auto 50vh;}
+}
+.intro h1, .intro-lyrics h1 {
     margin-top: 0;
     font-size: 3.3em;
     color: #000;
@@ -965,16 +986,17 @@ footer a {
 
 
 @media (min-width: 576px) {
-    .intro h1 {
+    .intro h1, .intro-lyrics h1 {
         font-size: 4.3em;
     }
 
-    .intro {
+    .intro, .intro-lyrics {
         max-height: 70vh;
         min-height: 640px;
     }
 
     .intro h1,
+	.intro-lyrics h1,
     .tagline {
         text-align: left;
     }
@@ -3160,4 +3182,137 @@ i.fa.fa-heart {
   {
     transform: scale( .75 );
   }
+}
+
+/* МЕНЮ АЛФАВИТ */ 
+nav.abc-menu ul{
+padding-left:0;
+text-align: center;
+overflow: hidden;
+margin: 10px 0 0 50px;
+font-family: 'Stereonic-M', sans-serif;
+font-size: 1.35em;
+text-shadow: 0 0 1px rgba(255,255,255,0.3);
+display: inline-block;
+}
+nav.abc-menu ul li{
+padding-left:0px;
+display: inline;    
+}
+nav.abc-menu li{ 
+list-style-type:none;
+padding-left:0px;
+display: inline;
+margin: 0;
+padding: 5px;
+}
+
+nav.abc-menu li a{ 
+color: #fff;
+-webkit-transition: .7s;
+-moz-transition: .7s;
+-o-transition: .7s;
+-ms-transition: .7s;
+transition: .7s;
+}
+
+nav.abc-menu li a:hover{ 
+color: #f8b500;
+}
+
+nav.abc-menu li a.activated{ 
+color: #f8b500;
+}
+a.abc-empty {pointer-events: none; color: #c31818 !important;}
+
+/******** ТЕКСТЫ ПЕСЕН *********/
+.section-lyrics {
+    padding: 25px 0;
+	position: relative; /* ДЛЯ SVG DIVIDER */
+}
+h3 span {
+  display: block;
+  font-size: 0.6em;
+  font-weight: 500;
+  line-height: 1.5em;
+  text-shadow: none;
+}
+.lyrics {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #000;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.lyrics h3 {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.lyrics p {
+    line-height: 1.2em;
+    margin-bottom: 1.1em;
+    color: #000;
+}
+.lyrics-desc {
+	background: rgba(114, 124, 245, 0.09);
+	color: #e31c1c;
+	display: inline-block;
+}
+.lyrics-m-s span {
+    font-family: 'Manrope Semibold', sans-serif;
+	font-weight: 700;
+	background: rgba(0, 0, 0, 0.2);
+	padding: 0 5px;
+    color: #000;
+}
+.lyrics-tp {
+    font-family: 'Times New Roman Italic';
+	font-weight: 600;
+	font-size: 1.1em;
+    color: #000;
+	margin-top: 20px;
+}
+
+.lyrics small {
+    margin-top: -20px;
+}
+.devidel {
+background: url('../img/devidel.png') top right no-repeat;
+background-size: contain;
+}
+.devidel p {
+font-weight: 500;
+color: #f8b500;
+text-shadow: 
+		-0   -1px 1px #E31C1C,
+		 0   -1px 1px #E31C1C,
+		-0    1px 1px #E31C1C,
+		 0    1px 1px #E31C1C,
+		-1px -0   1px #E31C1C,
+		 1px -0   1px #E31C1C,
+		-1px  0   1px #E31C1C,
+		 1px  0   1px #E31C1C,
+		-1px -1px 1px #E31C1C,
+		 1px -1px 1px #E31C1C,
+		-1px  1px 1px #E31C1C,
+		 1px  1px 1px #E31C1C,
+		-1px -1px 1px #E31C1C,
+		 1px -1px 1px #E31C1C,
+		-1px  1px 1px #E31C1C,
+		 1px  1px 1px #E31C1C;
+}
+.lyrics-tp p tt {
+    font-family: 'Roboto Condensed';
+	font-size: 0.9em;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+h1 span {
+    font-size: 3.3em;
+	background: #e31c1c;
+	padding: 10px 20px;
+    color: #f8b500;
+    font-weight: 600;
+    text-align: center;
 }
