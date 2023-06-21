@@ -3281,24 +3281,24 @@ background-size: contain;
 }
 .devidel p {
 font-weight: 500;
-color: #f8b500;
+color: #ffffff;
 text-shadow: 
-		-0   -1px 1px #E31C1C,
-		 0   -1px 1px #E31C1C,
-		-0    1px 1px #E31C1C,
-		 0    1px 1px #E31C1C,
-		-1px -0   1px #E31C1C,
-		 1px -0   1px #E31C1C,
-		-1px  0   1px #E31C1C,
-		 1px  0   1px #E31C1C,
-		-1px -1px 1px #E31C1C,
-		 1px -1px 1px #E31C1C,
-		-1px  1px 1px #E31C1C,
-		 1px  1px 1px #E31C1C,
-		-1px -1px 1px #E31C1C,
-		 1px -1px 1px #E31C1C,
-		-1px  1px 1px #E31C1C,
-		 1px  1px 1px #E31C1C;
+		-0   -1px 1px #005AEB,
+		 0   -1px 1px #005AEB,
+		-0    1px 1px #005AEB,
+		 0    1px 1px #005AEB,
+		-1px -0   1px #005AEB,
+		 1px -0   1px #005AEB,
+		-1px  0   1px #005AEB,
+		 1px  0   1px #005AEB,
+		-1px -1px 1px #005AEB,
+		 1px -1px 1px #005AEB,
+		-1px  1px 1px #005AEB,
+		 1px  1px 1px #005AEB,
+		-1px -1px 1px #005AEB,
+		 1px -1px 1px #005AEB,
+		-1px  1px 1px #005AEB,
+		 1px  1px 1px #005AEB;
 }
 .lyrics-tp p tt {
     font-family: 'Roboto Condensed';
