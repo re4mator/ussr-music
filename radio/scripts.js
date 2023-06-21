@@ -117,7 +117,10 @@ $(document).on('ready', function() {
     features: ['playpause','progress']
   });
 
-
+// МОЙ КОД
+  $('.audio-mp3 audio').mediaelementplayer({
+    features: ['playpause', 'progress', 'current', 'volume']
+  });
 
   $('.mejs-prevtrack-button').addClass('mejs-cust1-button');
   $('.mejs-nexttrack-button').addClass('mejs-cust2-button');
