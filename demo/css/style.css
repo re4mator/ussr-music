@@ -1517,7 +1517,7 @@ transform: scale(0.9);
 }
 
 /* Add a background color on hover */
-.btn-group button:hover {
+/* .btn-group button:hover {
     background-color: #3e8e41;
 }
 .btn-group button:hover, button:focus {
@@ -1535,7 +1535,7 @@ transform: scale(0.9);
     background: none;
     box-shadow: none;
     opacity: 1;
-}
+} */
 
 
 .glightbox-clean .gslide-description,
