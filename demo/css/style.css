@@ -3300,7 +3300,7 @@ text-shadow:
 		-1px  1px 1px #005AEB,
 		 1px  1px 1px #005AEB;
 }
-.lyrics-tp p tt {
+.lyrics-tp p small {
     font-family: 'Roboto Condensed';
 	font-size: 0.9em;
 }
