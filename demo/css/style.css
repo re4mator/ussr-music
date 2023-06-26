@@ -3316,3 +3316,62 @@ h1 span {
     font-weight: 600;
     text-align: center;
 }
+
+/***** КОММЕНТАРИИ *********/
+.comments-button {
+cursor: pointer;
+position: fixed;
+bottom: 20px;
+left: 20px;
+z-index: 999;
+}
+.social-icon-lg {
+  margin: 0 5px 5px 0;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  line-height: 60px !important;
+  color: #555;
+  text-shadow: none;
+  border-radius: 3px;
+  overflow: hidden;
+  display: block;
+  float: left;
+  text-align: center;
+  border: 1px solid #AAA;
+}
+.social-icon-lg:hover {
+  border-color: transparent;
+}
+
+.social-icon-lg i {
+  display: block;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  line-height: 60px;
+  position: relative;
+}
+.social-icon-lg i:last-child {
+  color: #FFF !important;
+}
+
+.social-icon-lg:hover i:first-child {
+  margin-top: -60px;
+}
+
+.si-dark {
+  background-color: #1a1853;
+  border: 0px !important;
+  color: #fff !important;
+}
+.si-dark-round {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.si-commenting:hover {
+  background-color: #28257e !important;
+}
