@@ -3325,6 +3325,11 @@ bottom: 20px;
 left: 20px;
 z-index: 999;
 }
+.comments-info {
+  font-family: 'Roboto Condensed';
+  font-size: 0.9em;
+  color: red;
+}
 .social-icon-lg {
   margin: 0 5px 5px 0;
   width: 60px;
