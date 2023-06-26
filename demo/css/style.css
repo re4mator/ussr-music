@@ -3321,7 +3321,7 @@ h1 span {
 .comments-button {
 cursor: pointer;
 position: fixed;
-bottom: 20px;
+bottom: 10px;
 left: 20px;
 z-index: 999;
 }
