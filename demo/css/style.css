@@ -3380,3 +3380,41 @@ z-index: 999;
 .si-commenting:hover {
   background-color: #28257e !important;
 }
+
+.cd {
+background-image:	
+url('data:image/svg+xml,\
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">\
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-6 0a2 2 0 1 0-4 0 2 2 0 0 0 4 0zM4 8a4 4 0 0 1 4-4 .5.5 0 0 0 0-1 5 5 0 0 0-5 5 .5.5 0 0 0 1 0zm9 0a.5.5 0 1 0-1 0 4 4 0 0 1-4 4 .5.5 0 0 0 0 1 5 5 0 0 0 5-5z" fill="black"></path>\
+  </svg>'); 
+width:16px; 
+height:16px; 
+display:inline-block;
+vertical-align:bottom;
+}
+.rotating{
+  animation: rotating 5s linear infinite;
+}
+@keyframes rotating{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+   transform: rotate(360deg);
+  }
+}
+
+.lyrics-down {
+    display: inline-block;
+	color: #fff;
+    background-color: #e31c1c;
+	font-family: 'Manrope Semibold', sans-serif;
+	font-weight: 700;
+	padding: 5px 5px;
+}
+.lyrics-down:hover {
+    background-color: #c80913;
+}
+.lyrics-down a {
+	color: #fff;
+}
